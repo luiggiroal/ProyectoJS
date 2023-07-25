@@ -1,4 +1,4 @@
-# ProyectoJS
+# ProyectoJS - Luiggi Rodríguez Aliaga
 Programa que permite dibujar varios cuadrados según el 
 usuario lo indique y el tamaño del Canvas, lo cual da 
 un carácter dinámico al programa.
