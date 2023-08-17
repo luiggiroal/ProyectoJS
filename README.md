@@ -15,7 +15,7 @@ uso de `prompt()` termina siendo tedioso para el usuario.
 A pesar de ser una de las consignas de la pre-entrega, la
 utilización de dicha función en este caso da una precaria
 experiencia de usuario a la aplicación web. Se apela al
-criterio del evaluador.
+criterio del evaluador.<br><br>
 
 - En primer lugar se llena el formulario con la data de la cuenta, luego
   se sube dicha información para que sea guardada dando click en el botón _Submit_.<br>
