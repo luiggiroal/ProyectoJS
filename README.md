@@ -1,5 +1,10 @@
 # Segunda Pre-Entrega
 
+Aplicación web alojada en _Github Pages_ en la siguiente
+dirección:<br><br>
+https://luiggiroal.github.io/ProyectoJS/
+<br><br>
+
 ## Indicaciones sobre uso:
 
 **AVISO:** Como se requiere el ingreso de varios campos de información,
@@ -28,3 +33,12 @@ criterio del evaluador.
 - Por último, se obtiene en pantalla el resumen de la data ingresada.
 
 ![Final](./misc/final.png)
+
+## Mejoras pendientes
+
+- Añadir un botón _Clear_ que permita borrar toda la data guardada y
+  al mismo tiempo se pueda limpiar la pantalla.
+- Implementar una función que permita calcular el IVA cobrado a un
+  depósito, y que este sea mostrado en el resumen de data.
+- Establecer condiciones para cada input con fin de asegurarse que la
+  data ingresada sea la correcta.
