@@ -1,0 +1,71 @@
+<!-- Por motivos de práctica del lenguaje, el texto y
+variables se expresan en inglés. -->
+
+<!-- This program receives the account and personal data from
+one or more people. Once the data es filled, it is displayed
+for each account on the screen pushing the 'Print Accounts'
+button. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bank Registration</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body
+    style="
+      background-color: lightgrey;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    "
+  >
+    <header>
+      <h1>Bank Registration</h1>
+    </header>
+    <main>
+      <p>
+        Please, fill the following form with your account and personal
+        information.
+      </p>
+      <form method="dialog">
+        <fieldset>
+          <legend>Registry</legend>
+          <fieldset>
+            <legend>Account</legend>
+            <label for="account-number">Account Number:</label>
+            <input
+              type="text"
+              id="account-number"
+              name="account-number"
+            /><br />
+            <label for="agency">Agency Number:</label>
+            <input type="text" id="agency" name="agency" /><br />
+            <label for="first-deposit">First Deposit:</label>
+            <input type="text" id="first-deposit" name="first-deposit" />
+          </fieldset>
+          <fieldset>
+            <legend>Client</legend>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" /><br />
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" /><br />
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" /><br />
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" /><br />
+            <span>Sex:</span>
+            <input type="radio" name="sex" value="Male" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="sex" value="Female" id="female" />
+            <label for="female">Female</label>
+          </fieldset>
+          <br />
+          <button type="submit" id="submitBtn">Submit</button>
+        </fieldset>
+      </form>
+      <br />
+      <button type="button" id="display-accounts">Print Accounts</button>
+    </main>
+    <script src="js/registry.js"></script>
+  </body>
+</html>

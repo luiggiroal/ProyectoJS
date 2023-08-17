@@ -1,0 +1,8 @@
+node_modules/
+js/app.js
+*.pdf
+*.json
+*.txt
+dom.html
+draw_rect.js
+draw_rect.html
